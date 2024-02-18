@@ -1,0 +1,1 @@
+docker login -u AWS -p $(aws ecr get-login-password --region ap-southeast-1 ) 255945442255.dkr.ecr.ap-southeast-1.amazonaws.com
